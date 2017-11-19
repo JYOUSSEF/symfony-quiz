@@ -1,20 +1,19 @@
 # Quiz and interview questions
 
-[![Build Status](https://travis-ci.org/andreafiori/symfony2-quiz.svg?branch=master)](https://travis-ci.org/andreafiori/symfony2-quiz)
+## DEPRECATED: this project is no longer maintained
 
-The database contains question about PHP (Zend certification exam) and other topics.
+The application has been migrated to a Yii2 version.
+The database contains question about PHP (PHP Zend Certification exam) and other topics.
 The quizzes have the correct answer and you can solve all problems. 
 No score will be stored. When you will solve a quiz, sometimes there's an additional comment to explain more about the question and its solution.
 Question interview are about PHP, HTTP and web development. I will add more important questions.
-
-[Demo available here](http://andreafiori.net/quiz)
 
 ## Installation
 
 Installation with composer:
 
-    composer self-update
-    composer install
+	composer self-update
+	composer install
 
 ## Database
 
@@ -57,7 +56,7 @@ Ensure you have PHPUnit installed.
 ## TODO
 
 - User loginFOSUserBundle login
-- Fix the admin area
+- Admin area
 - Add functional testing
 - Recover and try [data fixture](http://symfony.com/doc/current/bundles/DoctrineFixturesBundle/index.html)
 - Always add new records on database
